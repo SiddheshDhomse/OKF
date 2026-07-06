@@ -20,8 +20,6 @@ env/
 # Generated OKF bundle (users regenerate from their own docs)
 bundle/
 
-# Streamlit local config
-.streamlit/
 
 # IDE
 .vscode/
