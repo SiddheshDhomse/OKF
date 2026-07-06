@@ -91,7 +91,7 @@ OKF/
 ├── sample_docs/            # Example enterprise documents for testing
 ├── bundle/                 # Generated OKF bundle (gitignored)
 ├── requirements.txt        # Python dependencies
-├── .streamlit/config.toml  # Dark theme configuration
+├── .streamlit/config.toml  # Custom layout theme configuration
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -111,8 +111,8 @@ OKF/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/okf-knowledge-assistant.git
-cd okf-knowledge-assistant
+git clone https://github.com/SiddheshDhomse/OKF.git
+cd OKF
 
 # Install dependencies
 pip install -r requirements.txt
@@ -128,7 +128,7 @@ The app opens at `http://localhost:8501`. Ollama models are auto-detected in the
 ## 📖 Usage
 
 ### 1. 📥 Ingest Tab
-Upload one or more enterprise documents, pick an OKF `type` (Policy, SOP, Contract, etc.), and click convert. Each document is parsed into structured sections and written as individual OKF concept files.
+Upload one or more enterprise documents, and click convert. Each document is automatically parsed into structured sections and written as individual OKF concept files.
 
 ### 2. 🌳 Explore Bundle Tab
 Browse the generated OKF bundle on disk — raw markdown with YAML frontmatter side-by-side with a rendered preview. Inspect cross-links between concepts.
